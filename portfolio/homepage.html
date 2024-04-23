@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Organizing Portal</title>
+<style>
+    body, ul {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family:'Times New Roman', Times, serif;
+    }
+    #banner {
+        color: #fff;
+        padding: 180px 0;
+        background-image: url("swbg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #banner h1
+    {
+        font-family: "Brush Script MT", cursive; font-size: 45px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    }
+    .header {
+        color: #fff;
+        padding: 20px;
+    }
+    .header nav{
+        position:absolute;
+        top:26px;
+        right: 100px;
+        float:right;
+        }
+    .header h1{
+        font-size: 54px;
+        position:absolute;
+        top: 12px;
+        left: 40px;
+        float:left;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .header nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    .header nav ul li a {
+        text-decoration: none;
+        color:#fff;
+        font-family:sans-serif;
+        font-weight:bold;
+        margin:0 10px;
+        line-height:60px;
+        text-transform:uppercase;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #1110109e;
+        min-width: 160px;
+        color:#fff;
+        box-shadow: 0px 8px 16px 0px rgba(232, 15, 15, 0.176);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+    .dropdown:hover .dropdown-content{
+        display: block;
+      }
+    .text
+    {
+        text-align: center;
+    }
+    .text h2 {
+        font-family:"Brush Script MT", cursive; font-size: 45px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+        font-size:45px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        font-size:large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-left:580px;
+    }
+    h2{
+        text-align:right;
+        padding-bottom:15px;
+        padding-right: 200px;
+    }
+    footer{
+        position: fixed;
+        background-color: #333;
+        text-align: center;
+        width:100%;
+        color: #fff;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <section id="banner">                              
+        <div class="header">
+        <h1 style="color:mediumvioletred">Event Epic</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <div class="dropdown">
+                <span><li><a href="#">Events</a></li></span>
+                <div class="dropdown-content">
+                   <p><a href="#" style="color:#fff;text-decoration: none">Wedding</a></p>
+                    <p><a href="#" style="color:#fff;text-decoration: none">Birthday</a></p>
+                    <p>Conferences</p>
+                    <p>Musical Concert</p>
+                    <p>Engagement</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <span><li><a href="#">Contact</a></li></span>
+                    <div class="dropdown-content">
+                            <p>EmailID: priya.aishu18@gmail.com</p>
+                            <p>Contact: 6379551805</p>
+                        </div>
+                    </div>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Log in</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="text">
+        <h2 style="padding-left:120px;">Let <span style="color:deeppink;">Professionals</span> Run Your Event</h2>
+        <p style="color:deeppink; text-align:right; padding-right: 150px; font-family:'Brush Script MT', cursive; font-size:35px; font-style: normal; font-variant: normal; font-weight:300; line-height: 20.4px;">We specialize in creating unforgettable experiences</p>
+        <a href="registers.html" class="btn">Explore Events</a>
+    </div>
+</section>
+    <footer>
+        <p>&copy; 2023 Event Organizing Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>

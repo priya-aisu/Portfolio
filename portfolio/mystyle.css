@@ -1,0 +1,60 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .main-content img {
+            /* Make the image take up the full width of the container */
+            border-radius: 8px; /* Add border-radius for a rounded corner effect */
+            margin-bottom: 20px; /* Add some space below the image */
+        }
+        .fixed-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 200px;
+    width: 200px; /* Set the width of the fixed image */
+    object-fit:cover;
+    overflow: hidden;
+}
+
+
+        footer {
+            text-align: center;
+            position:fixed;
+            bottom:0;
+            width:100%;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
